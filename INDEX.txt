@@ -1,0 +1,26 @@
+ 
+
+       **** ES8 — New Features  ****
+
+  This chapter focusses on the new features in ES8.
+Padding a String
+ES8 introduces two string handling functions for padding a string. These functions can be 
+used to add space or any desired set of characters to the beginning and end of a string 
+value.
+String. padStart()
+This function pads the current string with a given input string repeatedly from the start, 
+till the current string reaches the given length. The syntax of the padStart() function is 
+given below:
+Syntax
+string_value.padStart(targetLength [, padString])
+The padStart() function accepts two parameters which are as follows:
+ targetLength: A numeric value that represents the target length of the string after 
+padding. If the value of this parameter is lesser than or equal to the existing length 
+of the string, the string value is returned as it is.
+ padString: This is an optional parameter. This parameter specifies the 
+characters that should be used to pad the string. The string value is padded with 
+spaces if no value is passed to this parameter.
+Example
+The following example declares a string variable, product_cost. The variable will be padded 
+with zeros from left until the total length of the string is seven. The example also illustrates 
+behaviour of the padStart() function, if no value is passed to the second parameter.
